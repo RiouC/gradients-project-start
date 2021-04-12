@@ -1,7 +1,6 @@
 import GradientTitle from "./GradientTitle"
 import GradientCode from "./GradientCode"
 import GradientPill from "./GradientPill"
-import { gradient } from "../gradients"
 
 const Gradient = ({ colorStart, colorEnd, name, tags }) => {
   return (
