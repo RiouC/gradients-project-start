@@ -1,4 +1,5 @@
 import GradientsList from "./components/GradientsList"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <main className="container">
         <GradientsList />
       </main>
+      <Footer />
     </div>
   )
 }
