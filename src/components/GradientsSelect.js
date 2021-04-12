@@ -1,9 +1,10 @@
-import { gradients } from "../gradients"
+import { gradients, uniqueTags } from "../gradients"
 
 const GradientsSelect = () => {
     return (
         <select className="form-control mb-4">
-            {gradients.map(grad => <option value={grad.name}>{grad.name}</option>)}
+            <option value="Tous">Tous</option>
+            {uniqueTags.map(tag => <option value={tag}>{tag}</option>)}
         </select>
     )
 }
