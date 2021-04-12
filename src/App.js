@@ -1,5 +1,5 @@
-import GradientsList from "./components/GradientsList"
-import Footer from "./components/Footer"
+import GradientsList from "./components/GradientsList";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+console.log("coucou");
