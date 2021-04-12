@@ -1,4 +1,4 @@
-import { gradients, uniqueTags } from "../gradients"
+import { uniqueTags } from "../gradients"
 
 const GradientsSelect = () => {
     return (
