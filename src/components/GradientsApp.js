@@ -2,7 +2,7 @@ import React from "react";
 
 import GradientsSelect from "./GradientsSelect"
 import GradientsList from "./GradientsList"
-import { gradients } from "../gradients"
+//import { gradients } from "../gradients"
 
 const GradientsApp = () => {
     const [tag, setTag] = React.useState("all")

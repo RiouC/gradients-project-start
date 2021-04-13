@@ -13,7 +13,7 @@ const GradientsSelect = (props) => {
                 id="select"
                 className="form-select"
                 onChange={handleSelectChange}
-                selected={'all'}
+                selected={tag}
             >
                 <option value="all">Tous</option>
                 {uniqueTags.map(tag => <option value={tag}>{tag}</option>)}

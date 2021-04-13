@@ -8,7 +8,7 @@ const GradientsList = (props) => {
 
   return (
     <ul className="row list-unstyled">
-      {filteredTags.map(grad => <Gradient key={grad.name} colorStart={grad.start} colorEnd={grad.end} name={grad.name} tags={grad.tags} />)}
+      {filteredTags.map(grad => <Gradient key={grad.name} colorStart={grad.start} colorEnd={grad.end} name={grad.name} tags={grad.tags} setTag={setTag} />)}
     </ul>
   )
 }
