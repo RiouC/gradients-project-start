@@ -7,11 +7,9 @@ const GradientTags = ({ tags, filter, setFilter }) => {
     setFilter(event.target.value);
   };
   return tags.map((tags) => (
-    <div>
-      <button className={tagsClasses} onChange={handlefilterOnChange}>
-        {tags}
-      </button>
-    </div>
+    <button className={tagsClasses} onChange={handlefilterOnChange}>
+      {tags}
+    </button>
   ));
 };
 

@@ -10,7 +10,9 @@ const Gradient = ({ colorStart, colorEnd, name, tags }) => {
         <GradientPill colorStart={colorStart} colorEnd={colorEnd} />
         <GradientTitle>{name}</GradientTitle>
         <GradientCode colorStart={colorStart} colorEnd={colorEnd} />
-        <GradientTags tags={tags} />
+        <div>
+          <GradientTags tags={tags} />
+        </div>
       </div>
     </li>
   )
