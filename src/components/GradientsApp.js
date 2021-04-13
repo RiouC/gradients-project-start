@@ -5,7 +5,7 @@ import GradientsList from "./GradientsList"
 import { gradients } from "../gradients"
 
 const GradientsApp = () => {
-    const [tag, setTag] = React.useState("")
+    const [tag, setTag] = React.useState("all")
 
     return (
         <>

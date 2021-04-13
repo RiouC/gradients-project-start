@@ -1,6 +1,7 @@
 import GradientTitle from "./GradientTitle"
 import GradientCode from "./GradientCode"
 import GradientPill from "./GradientPill"
+import GradientTags from "./GradientTags"
 
 const Gradient = ({ colorStart, colorEnd, name, tags }) => {
   return (
@@ -9,9 +10,7 @@ const Gradient = ({ colorStart, colorEnd, name, tags }) => {
         <GradientPill colorStart={colorStart} colorEnd={colorEnd} />
         <GradientTitle>{name}</GradientTitle>
         <GradientCode colorStart={colorStart} colorEnd={colorEnd} />
-        <div>
-          {tags.map(tag => <button className="btn border bg-dark text-white mx-1 mt-2">{tag}</button>)}
-        </div>
+        <GradientTags tags={tags} />
       </div>
     </li>
   )
