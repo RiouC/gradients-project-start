@@ -4,7 +4,7 @@ import GradientsHeader from './components/GradientsHeader'
 
 function App() {
   return (
-    <div>
+    <div className="App min-vh-100 d-flex flex-column">
       <GradientsHeader />
       <h1 className="text-center my-4">Alyra Gradients</h1>
       <main className="container">

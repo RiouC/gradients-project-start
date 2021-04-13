@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <footer class="bg-dark text-white text-center mt-5 p-3 fixed-bottom">
+        <footer class="bg-dark text-white text-center mt-auto p-3">
             <span lang="en">Made with Love for Alyra</span>
         </footer>
     );
