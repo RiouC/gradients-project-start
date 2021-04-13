@@ -1,7 +1,6 @@
 import Gradient from "./Gradient"
 import { gradients } from "../gradients"
 
-
 const GradientsList = (props) => {
   const { tag, setTag } = props;
   const filteredGradients = gradients.filter((grad) => tag === 'all' ? true : grad.tags.includes(tag))

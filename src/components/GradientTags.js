@@ -11,7 +11,7 @@ const GradientTags = ({ tags, tag, setTag }) => {
 
   return (
     <div className="mt-3">
-      {tags.map((el) => {
+      {tags.sort((a, b) => a > b).map((el) => {
         return <button key={el} disabled={el === tag} className={tagsClasses(el)} value={el} onClick={handleButtonClick}>{el}</button>
       })}
     </div>
