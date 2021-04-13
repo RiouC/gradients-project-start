@@ -10,7 +10,7 @@ const GradientsHeader = () => {
     };
 
     const handlePreviousClick = () => {
-        setGradientIndex((gradientIndex - 1) % gradients.length);
+        setGradientIndex((gradientIndex - 1 + gradients.length) % gradients.length);
     };
 
     const handleReloadClick = () => {
