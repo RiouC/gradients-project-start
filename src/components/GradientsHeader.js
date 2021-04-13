@@ -31,7 +31,7 @@ const GradientsHeader = () => {
                 className="btn btn-outline-light m-1"
                 onClick={handlePreviousClick}
             >
-                <i class="bi bi-arrow-left"></i>
+                <i className="bi bi-arrow-left"></i>
             </button>
             <button
                 aria-label="Cliquer pour changer le dégradé"
@@ -39,7 +39,7 @@ const GradientsHeader = () => {
                 className="btn btn-outline-light m-1"
                 onClick={handleReloadClick}
             >
-                <i class="bi bi-arrow-clockwise"></i>
+                <i className="bi bi-arrow-clockwise"></i>
             </button>
             <button
                 aria-label="Cliquer pour afficher le dégradé suivant"
@@ -47,7 +47,7 @@ const GradientsHeader = () => {
                 className="btn btn-outline-light m-1"
                 onClick={handleNextClick}
             >
-                <i class="bi bi-arrow-right"></i>
+                <i className="bi bi-arrow-right"></i>
             </button>
         </header>
     );
